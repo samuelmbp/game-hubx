@@ -14,13 +14,17 @@ export interface Game {
   metacritic: number;
 }
 
-const useGames = (selectedGenre: Genre | null) =>
+const useGames = (
+  selectedGenre: Genre | null,
+  selectedPlatform: Platform | null
+) =>
   useData<Game>(
     "/games",
     {
-      params: { genres: selectedGenre?.id },
+      params: { genres: selectedGenre?.id, platforms: selectedPlatform?.id },
     },
-    [selectedGenre?.id]
+    // Refreshes the data when other platform is selected
+    [selectedGenre?.id, selectedPlatform?.id]
   );
 
 export default useGames;
