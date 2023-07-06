@@ -9,7 +9,7 @@ const GameScreenshots = ({ gameId }: Props) => {
   const { data, isLoading, error } = useScreenshots(gameId);
 
   if (isLoading) return null;
-  if (error) return error;
+  if (error) throw error;
 
   return (
     <SimpleGrid
