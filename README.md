@@ -1,6 +1,8 @@
 # GameHubX
 
-GameHubX is a video game discovery web app that helps you find new and interesting games to play. With GameHubX, you can search for games by platform, genre, and more. Additionally, you can view a full description and media for each game. The app also offers a sleek and customizable user interface with a unique feature: the ability to toggle between light and dark mode. Whether you prefer a bright and vibrant interface or a more subdued and visually comfortable experience, GameHubX allows you to switch between the two modes seamlessly. Enjoy discovering games in a style that suits your preferences!
+GameHubX is a video game discovery web app that helps you find new and interesting games to play. With GameHubX, you can search for games by platform, genre, and more. Additionally, you can view a full description and media for each game.
+
+The app also offers a sleek and customizable user interface with a unique feature: the ability to toggle between light and dark mode. Whether you prefer a bright and vibrant interface or a more subdued and visually comfortable experience, GameHubX allows you to switch between the two modes seamlessly. Enjoy discovering games in a style that suits your preferences!
 
 ## Getting Started
 
